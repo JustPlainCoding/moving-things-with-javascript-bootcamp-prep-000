@@ -1,6 +1,6 @@
 const app = "I don't do much.";
 
-var dodger = document.getElementById('#dodger');
+var dodger = document.getElementById('dodger');
 document.addEventListener('keydown', function(e) {
   console.log(e.which)
   if(e.which === 37) {
