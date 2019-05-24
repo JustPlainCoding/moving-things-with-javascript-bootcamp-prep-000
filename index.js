@@ -8,6 +8,7 @@ document.addEventListener('keydown', function(e) {
 });
 
 function moveDodgerLeft(e) {
+  debugger;
   var leftNumbers = 
   dodger.style.left.replace('px', '');
   var left = parseInt(leftNumbers, 10);
