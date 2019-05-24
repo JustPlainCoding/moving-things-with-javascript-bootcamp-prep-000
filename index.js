@@ -12,7 +12,6 @@ document.addEventListener('keydown', function(e) {
 function moveDodgerLeft(e) {
   var leftNumbers = dodger.style.left.replace('px', '');
   var left = parseInt(leftNumbers, 10);
-  console.log(left)
   if(left > 0) {
     dodger.style.left = `${left - 1}px`;
   }
@@ -21,7 +20,6 @@ function moveDodgerLeft(e) {
 function moveDodgerRight() {
   var leftNumbers = dodger.style.left.replace('px', '');
   var left = parseInt(leftNumbers, 10);
-  console.log(left)
   if(left < 360) {
     dodger.style.left = `${left + 1}px`;
   }
